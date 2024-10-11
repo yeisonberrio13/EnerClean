@@ -1,0 +1,73 @@
+.impacto
+{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    .titulos
+    {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        padding: 10px;
+        padding-left: 50px;
+        h2
+        {
+            font-size: 50px;
+            padding-bottom: 11px;
+        }
+        p
+        {
+            width: 50%;
+        }
+    }
+    .contenidos
+    {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        // border: solid green;
+        align-content: center;
+        align-items: center;
+        // margin-left: 70px;
+        margin-top: 20px;
+        .contenido1,
+        .contenido2,
+        .contenido3
+        {
+            // border: solid blue;
+            align-content: center;
+            align-items: center;
+            margin-left: 6%;
+            margin-bottom: 20%;
+            margin-top: -2%;
+            width: 25%;
+            height: 60%;
+            padding: 10px;
+            .imagenes
+            {
+                // border: solid yellowgreen;
+                width: 100%;
+                
+                img
+                {
+                    width: 300px;
+                    
+                    // margin: 0 auto;
+                    // margin-left:30%;
+                }
+            }
+            h5,
+            h2,
+            p
+            {
+                padding: 4px;
+                font-size: 15px;
+            }
+            p
+            {
+                opacity: 0.6;
+            }
+        }
+    }
+}
