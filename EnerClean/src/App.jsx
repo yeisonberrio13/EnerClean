@@ -1,10 +1,6 @@
+import { Inicio } from './components/Inicio'
 import { Header } from './components/Header'
-import { Portada } from './components/Portada'
-import { Portada2 } from './components/Portada2'
-import { ProductosContainer } from './components/ProductosContainer'
-import { ImpactoContainer } from './components/ImpactoContainer'
-import { ContactoIndex } from './components/ContactoIndex'
-import { Footer } from './components/footer'
+import {Footer} from './components/Footer'
 import './App.scss'
 
 function App() {
@@ -12,21 +8,14 @@ function App() {
   return (
     < >
     <body>
-      <div className="containerMain">
-        <header>
-          <Header/>  
-        </header>
-        <main>
-          <Portada/>
-          <Portada2/>
-          <ProductosContainer/>
-          <ImpactoContainer/>
-          <ContactoIndex/>
-        </main>
-        <footer>
+    <header>
+      <Header/>  
+    </header>
+      <Inicio/>
+      <footer>
           <Footer/>
-        </footer>
-      </div>
+      </footer>
+      
     </body>
     </>
   )
