@@ -1,5 +1,5 @@
 import '../styles/ProductoContainer.scss'
-import { Productos } from "./Productos"
+import {Productos} from '../components/Productos'
 export const ProductosContainer = () => {
   return (
     <div className="container2">
