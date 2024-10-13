@@ -4,14 +4,11 @@ import { Portada2 } from "./Portada2";
 import {ProductosContainer} from "./ProductosContainer"
 import { ImpactoContainer } from "./ImpactoContainer";
 import { ContactoIndex } from "./ContactoIndex";
-// import { Footer } from "./footer";
+import { Footer } from "./footer";
 
 export const Inicio = () => {
   return (
     <div className="containerMain">
-        {/* <header>
-          <Header/>  
-        </header> */}
         <main>
           <Portada/>
           <Portada2/>
@@ -19,9 +16,6 @@ export const Inicio = () => {
           <ImpactoContainer/>
           <ContactoIndex/>
         </main>
-        {/* <footer>
-          <Footer/>
-        </footer> */}
       </div>
   )
 }

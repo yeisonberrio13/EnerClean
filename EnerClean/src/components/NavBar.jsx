@@ -7,11 +7,11 @@ export const NavBar = () => {
       <nav>
         <ul>
             <li><a href="">Grafica</a></li>
-            <li><a href="">Calculadora</a></li>
-            <li><a href="">Informacion</a></li>
+            <li><a href="/Calculadora">Calculadora</a></li>
+            <li><a href="/Informacion">Informacion</a></li>
             <div className='container'>
               <a href="" id='contacto' className=''>Contactanos
-              <img className="arrow" src={arrow} alt="" />
+              <img className="arrow" src={arrow} alt="" href ="" />
                 
                 </a> 
               
