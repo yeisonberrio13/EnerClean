@@ -40,9 +40,6 @@ export const Footer = () => {
         Copyrig ©  2024 EnerClean. Todos Los Derechos Reservados
         </p>
         </div>
-    
-    
-    
    </div>
   )
 }
