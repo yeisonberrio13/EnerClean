@@ -10,7 +10,7 @@ export const NavBar = () => {
             <li><a href="/Calculadora">Calculadora</a></li>
             <li><a href="/Informacion">Informacion</a></li>
             <div className='container'>
-              <a href="" id='contacto' className=''>Contactanos
+              <a href="/Contactanos" id='contacto' className=''>Contactanos
               <img className="arrow" src={arrow} alt="" href ="" />
                 
                 </a> 
