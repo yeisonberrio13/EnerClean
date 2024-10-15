@@ -1,0 +1,242 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+$colorPrimario: #3B5978;
+$colorBlanco: #FFFFFF;
+$colorfondo: #D9D9D9;
+.info1
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 600px;
+    .texto
+    {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 500px;
+        justify-content: center;
+        align-content: center;
+        margin-left: 4%;
+        h2
+        {
+            font-size: 50px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        p
+        {
+            padding-top: 14px;
+            width: 90%;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+
+        }
+        
+
+    }
+    .imageninfo1
+        {
+            margin: 0 auto;
+            width: 50%;
+            height: 500px;
+            display: flex;
+            flex-direction: row;
+            margin-top: 10px;
+            margin-left: 20px;
+            img
+            {
+                margin-top: 90px;
+            }
+        }
+}
+.info2
+{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1% ;
+    padding-bottom: 6%;
+    img
+    {
+        width: 20%;
+        height: 200px;
+    }
+    .texto2
+    {
+        padding: 10px;
+        
+        h3
+        {
+            font-size: 30px;
+            padding-bottom: 20px;
+            
+        }
+        p
+        {
+            padding-left: 10px;
+            font-size: 15px;
+            width: 90%;
+            justify-content: center;
+            text-justify:distribute;
+        }
+    }
+}
+.info3
+{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%;
+    height: 300px;
+    background-color: $colorfondo;
+    .text3
+    {
+        display: flex;
+        flex-direction: column;
+        padding-left: 5%;
+        width: 60%;
+        justify-content: center;
+        text-align:start;
+        justify-items: end;
+        h2
+        {
+            padding-bottom: 20px;
+            font-size: 30px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 500;
+        }
+        p
+        {
+            font-family: "Roboto", sans-serif;
+            font-weight: 370;
+            font-size: 15px;
+            width: 95%;
+        }
+    }
+    .imagen
+    {
+        width: 60%;
+        margin-left: 10%;
+        img
+        {
+            width: 80%;
+            margin-top: -95px;
+        }
+    }
+    
+}
+
+.video
+{
+    margin-top: 5%;
+    widows: 100%;
+    height: 500px;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    h4
+    {
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+    }
+    p
+    {
+        font-family: "Roboto", sans-serif;
+        text-justify: distribute;
+        width: 80%;
+        padding-top: 20px;
+    }
+}
+.info4
+{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    height: 300px;
+    h3
+    {
+        margin-left: 10%;
+        font-size: 30px;
+        font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+    }
+    .contenidos
+    {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        width: 70%;
+        height: 60%;
+        margin-left: 15%;
+        margin-top: 30px;
+        gap: 15px;
+        .contenido
+        {
+            display: flex;            
+            padding: 20px;
+            width: 30%;
+            height: 200px;
+            background-color: #D9D9D9;
+            text-align: center;
+            border: 1px solid $colorPrimario;
+            border-radius: 20px;
+            &:hover
+            {
+                background-color: $colorPrimario;
+                transition: 1s;
+                h2,
+                p{
+                    color: $colorBlanco;
+                }
+            }
+            #contenido1
+            {
+                width: 80%;
+                padding-bottom: 20px;
+                margin-top: 20px;
+                margin-left: 20px;
+                text-align: justify;
+            }
+            #contenido2
+            {
+                width: 90%;
+                text-justify: distribute-all-lines;
+                margin-left: 10px;
+                text-align: justify;
+            }
+            #contenido3
+            {
+                text-align: justify;
+                margin-left: 20px;
+                margin-top: 10px;
+            }
+            h2
+            {
+                font-size: 20px;
+            }
+            p
+            {
+                width: 80%;
+                padding-top: 10px;
+                font-size: 11px;
+                text-align: center;
+                text-justify:distribute
+            }
+        }
+    }
+}
+
+.ft
+{
+    height: 90px;
+}

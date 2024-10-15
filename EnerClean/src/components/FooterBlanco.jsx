@@ -27,9 +27,9 @@ export  const FooterBlanco = () => {
                     <img src="" alt="" />
                 </div>
                 <div className="redes">
-                    <a href=""><img alt={fb} /></a>
+                    {/* <a href=""><img alt={fb} /></a>
                     <a href=""><img alt={ig} /></a>
-                    <a href=""><img alt={yt} /></a>
+                    <a href=""><img alt={yt} /></a> */}
                 </div>
             </div>
         </div>
