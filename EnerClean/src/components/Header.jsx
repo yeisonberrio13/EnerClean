@@ -6,8 +6,8 @@ export const Header = () => {
   return (
     <header className="header">
       <div className="logo">
-      <a href="http://google.com/"><img src={logo} alt=""  /> </a>
-      <a href="" id="titulo">EnerClean</a>
+      <a href="/inicio"><img src={logo} alt=""  /> </a>
+      <a href="/inicio" id="titulo">EnerClean</a>
       <NavBar/>
       </div>
     </header>

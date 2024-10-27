@@ -16,8 +16,8 @@ export const Footer = () => {
         </div>
         <div className="contenido">
             <a href="">Grafica</a>
-            <a href="">Calculadora</a>
-            <a href="">Informacion</a>
+            <a href="/calculadora">Calculadora</a>
+            <a href="/informacion">Informacion</a>
         </div>
         <div className="links">
             <h4>SUSCRIBETE PARA RECIBIR LAS ULTIMAS NOTICIAS</h4>
@@ -40,9 +40,6 @@ export const Footer = () => {
         Copyrig ©  2024 EnerClean. Todos Los Derechos Reservados
         </p>
         </div>
-    
-    
-    
    </div>
   )
 }

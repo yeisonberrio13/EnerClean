@@ -6,12 +6,12 @@ export const NavBar = () => {
       <div className="navbar">
       <nav>
         <ul>
-            <li><a href="">Grafica</a></li>
-            <li><a href="">Calculadora</a></li>
-            <li><a href="">Informacion</a></li>
+            <li><a href="/prueba">Grafica</a></li>
+            <li><a href="/Calculadora">Calculadora</a></li>
+            <li><a href="/Informacion">Informacion</a></li>
             <div className='container'>
-              <a href="" id='contacto' className=''>Contactanos
-              <img className="arrow" src={arrow} alt="" />
+              <a href="/Contactanos" id='contacto' className=''>Contactanos
+              <img className="arrow" src={arrow} alt="" href ="" />
                 
                 </a> 
               

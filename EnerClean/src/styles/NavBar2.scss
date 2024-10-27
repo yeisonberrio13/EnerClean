@@ -1,0 +1,80 @@
+$colorPrimario : #3B5978;
+$colorBlanco: #FFFFFF;
+
+
+.navbar2
+{
+    position: relative;
+    width: 200%;
+    display: flex;
+    margin-left: 90%;
+    // margin-bottom: 30px;
+    color: #FFFFFF;
+    
+    ul
+    {
+        display: flex;
+        list-style: none;
+        gap: 15px;
+        margin-right: -40%;
+        margin-left: 60%;
+        li
+        {
+            list-style: none;
+            a
+            {
+                text-decoration: none;
+                width: 20px;
+                height: 30px;
+            //    color: #FFFFFF;
+            }
+        }
+    }
+    .container
+    {
+        display: flex;
+        flex-direction: row;
+        margin-left: 65%;
+        margin-top: -13px;
+        align-content: center;
+        a
+        {
+            text-decoration: none;
+            // color: $colorBlanco;
+            // color: ;
+        }
+    }
+    #contacto
+    {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        height: 27px;
+        padding: 3px;
+        padding-left: 10%;
+        background-color: $colorBlanco;
+        border-radius: 50px;
+        border: 1px solid $colorBlanco transparent;
+        color: $colorPrimario;
+        margin-left: 90px;
+        
+        &:hover
+        {
+            background-color: #3B5978;
+            color: $colorBlanco;
+            border: 1px solid $colorBlanco;
+        }
+        .arrow
+        {
+            width: 20px;
+            height: 20px;
+            margin-bottom: 10px;
+            margin-left: 1%;
+            background-color: $colorPrimario;
+            color: #FFFFFF;
+            border-radius: 50px;
+            margin-left: 30px;
+        }
+    
+    }
+}
