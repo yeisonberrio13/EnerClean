@@ -44,7 +44,7 @@ code .
 para ver la pagina solo tendria que adicionarle el siguiente apartado a la direccion:
 
     #### /inicio
-    <img src = "captura(8).png">
+<img src = "captura(8).png">
 
 haciendo esto ya podra acceder a la pagina
 <img src ="captura(9).png">    
