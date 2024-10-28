@@ -14,7 +14,11 @@ export  const Impacto = () => {
             <div className="contenidos">
                 <div className="contenido1">
                     <div className="imagenes">
-                        <img src={img2} alt="" />
+                        
+                        <a href="https://www.elcolombiano.com/medellin/en-medellin-nacio-la-primera-comunidad-energetica-del-pais-IF23401977" target='blank'>
+
+                            <img src={img2} alt="" />
+                        </a>
                     </div>
                     <h5>19 de Abril del 2023</h5>
                     <h2>Por primera vez, barrio de Medellín le venderá energía solar al país</h2>
@@ -22,7 +26,9 @@ export  const Impacto = () => {
                 </div>
                 <div className="contenido2">
                     <div className="imagenes">
-                        <img src={img3} alt="" />
+                        <a href="https://www.barranquilla.gov.co/mi-barranquilla/inicia-la-era-de-energia-solar-en-los-hogares-de-barranquilla" target='blank' >
+                            <img src={img3} alt=""/>
+                        </a>
                     </div>
                     <h5>3 de Agosto del 2023</h5>
                     <h2>Inicia la era de energía solar en los hogares de Barranquilla</h2>
@@ -30,11 +36,15 @@ export  const Impacto = () => {
                 </div>
                 <div className="contenido3">
                     <div className="imagenes">
-                        <img src={img4} alt="" />
+
+                        
+                        <a href="https://www.minenergia.gov.co/es/sala-de-prensa/noticias-index/emcali-y-el-fenoge-llevan-energ%C3%ADa-solar-a-2000-hogares-vulnerables-de-cali/" target='blank'>
+                            <img src={img4} alt=""/>
+                        </a>
                     </div>
                     <h5>19 de diciembre del 2023</h5>
                     <h2>EMCALI y el FENOGE llevan energía solar a 2.000 hogares vulnerables de Cali</h2>
-                    <p>EMCALI y el FENOGE, con apoyo del MinEnergía, lanzan el programa "Hogares Energéticamente Sostenibles" para instalar paneles solares en cerca de 2.000 hogares del oriente de Cali.</p>
+                    <p><a href=""></a>EMCALI y el FENOGE, con apoyo del MinEnergía, lanzan el programa "Hogares Energéticamente Sostenibles" para instalar paneles solares en cerca de 2.000 hogares del oriente de Cali.</p>
                 </div>
             </div>
       

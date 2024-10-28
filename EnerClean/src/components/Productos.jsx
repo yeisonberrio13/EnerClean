@@ -7,8 +7,8 @@ export const Productos = ({titulo,subtitulo}) => {
         <h2>{titulo}</h2>
         <p>{subtitulo}</p>
         <div className="flecha">
-          <a href="">  
-          <img src={arrow} alt="" className="flecha"/>
+          <a href="Calculadora">  
+          <img src={arrow} alt=""  className="flecha"/>
         </a>        
 
         </div>
