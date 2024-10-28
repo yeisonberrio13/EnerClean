@@ -26,16 +26,13 @@
         display: flex;
         width: 100%;
         flex-direction: row;
-        // border: solid green;
         align-content: center;
         align-items: center;
-        // margin-left: 70px;
         margin-top: 20px;
         .contenido1,
         .contenido2,
         .contenido3
         {
-            // border: solid blue;
             align-content: center;
             align-items: center;
             margin-left: 6%;
@@ -46,15 +43,12 @@
             padding: 10px;
             .imagenes
             {
-                // border: solid yellowgreen;
                 width: 100%;
                 
                 img
                 {
                     width: 300px;
-                    
-                    // margin: 0 auto;
-                    // margin-left:30%;
+                    border-radius: 20px;
                 }
             }
             h5,
